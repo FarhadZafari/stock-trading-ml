@@ -1,7 +1,10 @@
 alpha_vantage
-pandas
-numpy
+pandas>=0.24
+numpy>=1.15
 sklearn
 keras
 tensorflow
 matplotlib
+requests>=2.21
+multitasking>=0.0.7
+lxml>=4.5.1

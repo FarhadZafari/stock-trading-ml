@@ -1,0 +1,13 @@
+version: '2'
+
+services:
+    stock_trade:
+        container_name: stock_trade
+        build:
+            context: .
+            dockerfile: Dockerfile
+        volumes:
+            - ./:/src/
+        ports:
+            - 8877:8877
+        restart: always
